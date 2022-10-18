@@ -31,5 +31,14 @@ public class PessoaTeste {
         pessoa4.mostrarImc();
         double imcPessoa4 = pessoa4.calcularImc();
         System.out.println(imcPessoa4);
+
+
+        //Exemplo pessoas
+        Pessoa pedro = new Pessoa("Pedro", "Jose", 29, 1.10, 80);
+
+        Pessoa joao = new Pessoa("Joao", "Carlos", 30, 1.75, 90);
+
+        pedro.cumprimentar(joao);
+        pedro.cumprimentar(joao);
     }
 }
