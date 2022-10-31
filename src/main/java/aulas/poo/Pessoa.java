@@ -10,7 +10,7 @@ public class Pessoa {
     double altura;
     double peso;
 
-    ArrayList<Pessoa> conhecidos = new ArrayList<>();
+
 
     Pessoa() { // construtor da classe
         // this => representa o objeto
