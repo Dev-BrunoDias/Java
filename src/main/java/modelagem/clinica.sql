@@ -18,7 +18,6 @@ nome VARCHAR(30) NOT NULL,
 endereco VARCHAR(50)  NOT NULL,
 telefone VARCHAR(15) UNIQUE NOT NULL,
 idMedico INTEGER NOT NULL,
-FOREIGN KEY(idMedico) REFERENCES medico(idMedico)
 );
 
 CREATE TABLE consultas (
